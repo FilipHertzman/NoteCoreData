@@ -1,4 +1,4 @@
-# Task Management 
+# Task Management App with Core Data - Xcode, SwiftUI
 
 **Course - iOS Development.** This Task Management App is a powerful and user-friendly tool that provides users with a seamless experience for creating, managing, and deleting tasks. Developed with SwiftUI and Core Data, the app offers an intuitive and visually appealing interface with light and dark mode options.
 
