@@ -11,6 +11,14 @@
 		8B59374B29BA084F008B4305 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B59374A29BA084F008B4305 /* ContentView.swift */; };
 		8B59374D29BA0850008B4305 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B59374C29BA0850008B4305 /* Assets.xcassets */; };
 		8B59375029BA0850008B4305 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B59374F29BA0850008B4305 /* Preview Assets.xcassets */; };
+		8B59375729BA08EC008B4305 /* CoreDataViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B59375629BA08EC008B4305 /* CoreDataViewModel.swift */; };
+		8B59375A29BA0A3A008B4305 /* TaskContainer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8B59375829BA0A3A008B4305 /* TaskContainer.xcdatamodeld */; };
+		8B59376029BA1720008B4305 /* HideKeyboard .swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B59375F29BA1720008B4305 /* HideKeyboard .swift */; };
+		8B59376329BA1944008B4305 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B59376229BA1944008B4305 /* Constant.swift */; };
+		8B59376529BA1D61008B4305 /* NewTaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B59376429BA1D61008B4305 /* NewTaskView.swift */; };
+		8B59376729BA20ED008B4305 /* BlankView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B59376629BA20ED008B4305 /* BlankView.swift */; };
+		8B95690329C094DE0067D5B2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B95690229C094DE0067D5B2 /* LaunchScreen.storyboard */; };
+		8B95690929C09B150067D5B2 /* Group13.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B95690829C09B150067D5B2 /* Group13.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +27,15 @@
 		8B59374A29BA084F008B4305 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		8B59374C29BA0850008B4305 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8B59374F29BA0850008B4305 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8B59375629BA08EC008B4305 /* CoreDataViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataViewModel.swift; sourceTree = "<group>"; };
+		8B59375929BA0A3A008B4305 /* TaskContainer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TaskContainer.xcdatamodel; sourceTree = "<group>"; };
+		8B59375F29BA1720008B4305 /* HideKeyboard .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HideKeyboard .swift"; sourceTree = "<group>"; };
+		8B59376229BA1944008B4305 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		8B59376429BA1D61008B4305 /* NewTaskView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewTaskView.swift; sourceTree = "<group>"; };
+		8B59376629BA20ED008B4305 /* BlankView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlankView.swift; sourceTree = "<group>"; };
+		8B9568FE29C08F7B0067D5B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		8B95690229C094DE0067D5B2 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8B95690829C09B150067D5B2 /* Group13.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Group13.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +68,14 @@
 		8B59374729BA084F008B4305 /* NoteCoreData */ = {
 			isa = PBXGroup;
 			children = (
+				8B9568FE29C08F7B0067D5B2 /* Info.plist */,
 				8B59374829BA084F008B4305 /* NoteCoreDataApp.swift */,
-				8B59374A29BA084F008B4305 /* ContentView.swift */,
+				8B59375B29BA15F8008B4305 /* View */,
+				8B59375D29BA1620008B4305 /* ViewModel */,
+				8B59375C29BA1602008B4305 /* Model */,
+				8B59376129BA192C008B4305 /* Utillity */,
+				8B59375E29BA1647008B4305 /* Extensions */,
+				8B9568FF29C090610067D5B2 /* LaunchScreen */,
 				8B59374C29BA0850008B4305 /* Assets.xcassets */,
 				8B59374E29BA0850008B4305 /* Preview Content */,
 			);
@@ -65,6 +88,57 @@
 				8B59374F29BA0850008B4305 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8B59375B29BA15F8008B4305 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8B59374A29BA084F008B4305 /* ContentView.swift */,
+				8B59376429BA1D61008B4305 /* NewTaskView.swift */,
+				8B59376629BA20ED008B4305 /* BlankView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8B59375C29BA1602008B4305 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8B59375829BA0A3A008B4305 /* TaskContainer.xcdatamodeld */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8B59375D29BA1620008B4305 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				8B59375629BA08EC008B4305 /* CoreDataViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		8B59375E29BA1647008B4305 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				8B59375F29BA1720008B4305 /* HideKeyboard .swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		8B59376129BA192C008B4305 /* Utillity */ = {
+			isa = PBXGroup;
+			children = (
+				8B59376229BA1944008B4305 /* Constant.swift */,
+			);
+			path = Utillity;
+			sourceTree = "<group>";
+		};
+		8B9568FF29C090610067D5B2 /* LaunchScreen */ = {
+			isa = PBXGroup;
+			children = (
+				8B95690829C09B150067D5B2 /* Group13.png */,
+				8B95690229C094DE0067D5B2 /* LaunchScreen.storyboard */,
+			);
+			path = LaunchScreen;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,8 +199,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B95690329C094DE0067D5B2 /* LaunchScreen.storyboard in Resources */,
 				8B59375029BA0850008B4305 /* Preview Assets.xcassets in Resources */,
 				8B59374D29BA0850008B4305 /* Assets.xcassets in Resources */,
+				8B95690929C09B150067D5B2 /* Group13.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,8 +213,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B59375A29BA0A3A008B4305 /* TaskContainer.xcdatamodeld in Sources */,
+				8B59376529BA1D61008B4305 /* NewTaskView.swift in Sources */,
+				8B59376029BA1720008B4305 /* HideKeyboard .swift in Sources */,
 				8B59374B29BA084F008B4305 /* ContentView.swift in Sources */,
+				8B59375729BA08EC008B4305 /* CoreDataViewModel.swift in Sources */,
+				8B59376729BA20ED008B4305 /* BlankView.swift in Sources */,
 				8B59374929BA084F008B4305 /* NoteCoreDataApp.swift in Sources */,
+				8B59376329BA1944008B4305 /* Constant.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,11 +352,12 @@
 				DEVELOPMENT_TEAM = 856SL5P6MS;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NoteCoreData/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Keep It Simple";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -299,11 +382,12 @@
 				DEVELOPMENT_TEAM = 856SL5P6MS;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NoteCoreData/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Keep It Simple";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -339,6 +423,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		8B59375829BA0A3A008B4305 /* TaskContainer.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				8B59375929BA0A3A008B4305 /* TaskContainer.xcdatamodel */,
+			);
+			currentVersion = 8B59375929BA0A3A008B4305 /* TaskContainer.xcdatamodel */;
+			path = TaskContainer.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 8B59373D29BA084F008B4305 /* Project object */;
 }
