@@ -2,6 +2,8 @@
 
 **Course - iOS Development.** This Task Management App is a powerful and user-friendly tool that provides users with a seamless experience for creating, managing, and deleting tasks. Developed with SwiftUI and Core Data, the app offers an intuitive and visually appealing interface with light and dark mode options.
 
+![Task Management App Screenshot](https://images.squarespace-cdn.com/content/v1/62ddae4178abf52ddb78cf19/059652d5-837f-4bf6-852e-1fd5c697befc/Group+216.png?format=1000w)
+
 ## Key Features
 
 - **Attractive and intuitive user interface**: The clean layout showcases tasks in a list format and allows users to switch between light and dark modes for better visual comfort.
